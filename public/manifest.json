@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Highlight Saver",
+  "version": "1.0",
+  "description": "Save and manage your text highlights across webpages.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

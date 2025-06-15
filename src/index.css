@@ -1,0 +1,20 @@
+* {
+  color: #333333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 400px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.highlights-container {
+  overflow-y: auto;
+  max-height: 420px;
+  padding-right: 4px;
+}
